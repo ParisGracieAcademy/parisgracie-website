@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  background: url('20250506_1340_Martial Arts Website Background_remix_01jtke9z7xfhesb6eyna2rnbge.png') no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+}
+.logo {
+  margin-top: 40px;
+}
+.main-title {
+  font-size: 3em;
+  font-weight: bold;
+  margin: 30px 0 10px;
+}
+.cta-button {
+  background-color: #b08a44;
+  color: white;
+  padding: 15px 30px;
+  font-size: 1em;
+  text-decoration: none;
+  display: inline-block;
+  margin: 20px auto;
+  border-radius: 5px;
+}
+nav {
+  margin-top: 30px;
+}
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-size: 1.1em;
+}
