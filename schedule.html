@@ -1,38 +1,137 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Schedule - Paris Gracie Jiu Jitsu</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Schedule - Paris Gracie Jiu Jitsu</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to right, #1f4037, #99f2c8);
+      color: #333;
+    }
+    .watermark {
+      position: fixed;
+      bottom: 10%;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 0;
+      opacity: 0.25;
+      width: 60%;
+      max-width: 600px;
+    }
+    header, section, footer {
+      position: relative;
+      z-index: 1;
+    }
+    header {
+      background-color: #0a0a0a;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 30px;
+    }
+    header img {
+      height: 60px;
+    }
+    nav a {
+      margin: 0 15px;
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #00e6b8;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    input, textarea {
+      width: 100%;
+      margin-bottom: 10px;
+      padding: 10px;
+    }
+    button {
+      padding: 10px 20px;
+      background: #00b894;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    footer {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      background: #0a0a0a;
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+      z-index: 1;
+    }
+    .social-icons {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+    }
+    .social-icons img {
+      height: 24px;
+      filter: brightness(0) invert(1);
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <img src="paris_gracie_logo.png" alt="Paris Gracie Logo">
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="schedule.html">Schedule</a>
-            <a href="contact.html">Contact</a>
-            <a href="gallery.html">Gallery</a>
-        </nav>
-    </header>
+
+  <img class="watermark" src="https://parisgracieacademy.github.io/parisgracie-website/paris_gracie_logo.png" alt="Watermark Logo" />
+
+  <header>
+    <div class="social-icons">
+      <a href="https://www.facebook.com/share/g/16CbLJavqN/" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook" />
+      </a>
+      <a href="https://www.instagram.com" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram" />
+      </a>
+      <a href="https://maps.google.com/?q=312+Tyson+Ave,+Paris,+TN+38242" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/2991/2991148.png" alt="Google Maps" />
+      </a>
+    </div>
+    <img src="paris_gracie_logo.png" alt="Paris Gracie Logo" />
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="schedule.html">Schedule</a>
+      <a href="contact.html">Contact</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="coach.html">Meet the Coach</a>
+    </nav>
+  </header>
+
+  
     <section>
-        <h2>Weekly Class Schedule</h2>
-        <table class="schedule-table">
-            <tr><th>Day</th><th>Class</th><th>Time</th></tr>
-            <tr><td>Monday</td><td>Kids</td><td>5:30 PM – 6:15 PM</td></tr>
-            <tr><td>Monday</td><td>Adults</td><td>6:30 PM – 7:30 PM</td></tr>
-            <tr><td>Tuesday</td><td>Adult Beginners</td><td>6:30 PM – 7:30 PM</td></tr>
-            <tr><td>Wednesday</td><td>Open Mat</td><td>6:30 PM – 7:30 PM</td></tr>
-            <tr><td>Thursday</td><td>Kids</td><td>5:30 PM – 6:15 PM</td></tr>
-            <tr><td>Thursday</td><td>Adults</td><td>6:30 PM – 7:30 PM</td></tr>
-            <tr><td>Saturday</td><td>Early Bird</td><td>7:00 AM – 8:00 AM</td></tr>
-            <tr><td>Saturday</td><td>Kids</td><td>10:00 AM – 11:00 AM</td></tr>
-            <tr><td>Saturday</td><td>Adults</td><td>11:00 AM – 12:00 PM</td></tr>
-        </table>
+      <h2>Weekly Class Schedule</h2>
+      <table style="width:100%; border-collapse:collapse; background:#fff;">
+        <tr><th>Day</th><th>Class</th><th>Time</th></tr>
+        <tr><td>Monday</td><td>Kids</td><td>5:30 PM – 6:15 PM</td></tr>
+        <tr><td>Monday</td><td>Adults</td><td>6:30 PM – 7:30 PM</td></tr>
+        <tr><td>Tuesday</td><td>Adult Beginners</td><td>6:30 PM – 7:30 PM</td></tr>
+        <tr><td>Wednesday</td><td>Open Mat</td><td>6:30 PM – 7:30 PM</td></tr>
+        <tr><td>Thursday</td><td>Kids</td><td>5:30 PM – 6:15 PM</td></tr>
+        <tr><td>Thursday</td><td>Adults</td><td>6:30 PM – 7:30 PM</td></tr>
+        <tr><td>Saturday</td><td>Early Bird</td><td>7:00 AM – 8:00 AM</td></tr>
+        <tr><td>Saturday</td><td>Kids</td><td>10:00 AM – 11:00 AM</td></tr>
+        <tr><td>Saturday</td><td>Adults</td><td>11:00 AM – 12:00 PM</td></tr>
+      </table>
     </section>
-    <footer>
-        &copy; 2025 Paris/Dover Gracie Jiu Jitsu Academy
-    </footer>
+    
+
+  <footer>
+    &copy; 2025 Paris/Dover Gracie Jiu Jitsu Academy. All Rights Reserved.
+  </footer>
 </body>
 </html>
