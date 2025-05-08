@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meet Coach Jeremy Thompson</title>
+  <style>
+    body { font-family: 'Segoe UI', sans-serif; margin: 0; padding: 0; background: #f5f5f5; color: #333; }
+    header { background-color: #0a0a0a; display: flex; justify-content: space-between; align-items: center; padding: 15px 30px; }
+    header img { height: 60px; }
+    nav a { margin: 0 15px; color: #fff; text-decoration: none; font-weight: bold; }
+    nav a:hover { color: #00e6b8; }
+    section { padding: 40px 20px; max-width: 800px; margin: auto; line-height: 1.6; }
+    h1, h2 { color: #0a0a0a; }
+    footer { background: #0a0a0a; color: #fff; text-align: center; padding: 10px; position: fixed; bottom: 0; left: 0; width: 100%; }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="paris_gracie_logo.png" alt="Paris Gracie Logo">
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="schedule.html">Schedule</a>
+      <a href="contact.html">Contact</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="coach.html">Coach</a>
+    </nav>
+  </header>
+
+  <section>
+    <h1>Meet Coach Jeremy Thompson</h1>
+    <h3>4th Degree Brown Belt | Head Instructor – Paris & Dover Gracie Jiu-Jitsu</h3>
+    <p>Jeremy Thompson is the head instructor at Paris Gracie Jiu-Jitsu and Dover Gracie Jiu-Jitsu, proudly serving under the Borras BJJ banner. He is a 4th degree brown belt in Brazilian Jiu-Jitsu, promoted by Professor Jorge Borras, a 5th-degree black belt under Master Carlos Valente of the Rickson Gracie lineage.</p>
+
+    <p>With over 20 years of martial arts experience, Jeremy has dedicated his life to sharing the art of Jiu-Jitsu with others. His journey began unexpectedly in 2006, when a much smaller student submitted him repeatedly after a karate class. That humbling moment sparked a passion that changed his life.</p>
+
+    <p>He has trained under some of the most respected instructors in the region, and names Jorge Borras and David Gallimore as the most influential figures in his development. He has competed at every belt level, earning multiple podium finishes, including two silver medals and a bronze.</p>
+
+    <h2>A Coach Who Cares</h2>
+    <p>Jeremy's teaching philosophy is built on approachability, encouragement, and service. Whether you’re a complete beginner or a seasoned grappler, he teaches with clarity and humility—breaking down techniques in a way that anyone can understand.</p>
+
+    <p>At both of his academies, Jeremy works to foster a camaraderie-driven, family-first environment where students care about each other's progress just as much as their own. He believes Jiu-Jitsu is best when passed down, and encourages higher belts to actively support and mentor lower ranks.</p>
+    <blockquote>“Our academy is different because we’re a family—in practice, not just in words.”</blockquote>
+
+    <h2>More Than Just Jiu-Jitsu</h2>
+    <p>Jeremy is also a devoted Christian, a musician, and a proud family man. His faith shapes his coaching and life philosophy, guiding his mission to help people find confidence, purpose, and personal transformation through Jiu-Jitsu.</p>
+    <blockquote>“Helping people gain confidence and change their life is my passion.”</blockquote>
+
+    <h2>What You Can Expect</h2>
+    <ul>
+      <li>Greater confidence in themselves</li>
+      <li>A stronger sense of purpose</li>
+      <li>A commitment to helping those around them</li>
+    </ul>
+
+    <p>Whether you're here to get in shape, learn self-defense, compete, or just grow as a person, Jeremy is here to guide and support your journey—one class at a time.</p>
+
+    <h3>Favorite BJJ Quote:</h3>
+    <blockquote>"To become a lion, you must train with lions." – Carlson Gracie</blockquote>
+  </section>
+
+  <footer>
+    &copy; 2025 Paris/Dover Gracie Jiu Jitsu Academy. All Rights Reserved.
+  </footer>
+</body>
+</html>
