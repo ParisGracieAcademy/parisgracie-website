@@ -11,6 +11,21 @@
       padding: 0;
       background: linear-gradient(to right, #1f4037, #99f2c8);
       color: #333;
+      position: relative;
+    }
+    .watermark {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 0;
+      opacity: 0.25;
+      width: 60%;
+      max-width: 600px;
+    }
+    header, section, footer {
+      position: relative;
+      z-index: 1;
     }
     header {
       background-color: #0a0a0a;
@@ -53,6 +68,10 @@
   </style>
 </head>
 <body>
+
+  <!-- Watermark logo -->
+  <img class="watermark" src="https://parisgracieacademy.github.io/parisgracie-website/paris_gracie_logo.png" alt="Watermark Logo" />
+
   <header>
     <img src="paris_gracie_logo.png" alt="Paris Gracie Logo" />
     <nav>
@@ -80,3 +99,4 @@
   </footer>
 </body>
 </html>
+
